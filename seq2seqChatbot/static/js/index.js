@@ -62,7 +62,8 @@ function interact(message){
 		// 	remove loading meassage
     $('.message.loading').remove();
 		// Add message to chatbox
-    $('<div class="message new"><figure class="avatar"><img src="/static/res/easybot.png" /></figure>' + reply['text'] + '</div>').appendTo($('.mCSB_container')).addClass('new');
+	$('<div class="message new"><figure class="avatar"><img src="/static/res/easybot.png" /></figure>' + reply['text'] + '</div>').appendTo($('.mCSB_container')).addClass('new');
+
     setDate();
     updateScrollbar();
 
